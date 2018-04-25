@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font: normal 16px arial, helvetica;
+}
+.row {
+  border: 1px solid red;
+}
+.col {
+  border: 1px solid green;
+}
+@media all and (min-width: 480px) {
+  .row {
+    display: flex;
+  }
+  .col-1of4 {
+    width: 25%;
+  }
+  .col-2of4 {
+    width: 50%
+  }
+  .col-1of4 {
+    width: 25%;
+  }
+  .col-3of4 {
+    width: 75%;
+  }
+}
